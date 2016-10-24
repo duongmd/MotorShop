@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Shop1</key>
+	<dict>
+		<key>name</key>
+		<string>Ferrari</string>
+		<key>price</key>
+		<string>50.000USD</string>
+		<key>images</key>
+		<array>
+			<string>2hqdfsqpdehgl</string>
+			<string>4dafc9ca-th</string>
+			<string>011360-full</string>
+			<string>nguoi-dep-va-sieu-xe-1</string>
+			<string>autovina</string>
+			<string>cars-girl-and-car-jpg-88223</string>
+			<string>cars-nissan</string>
+		</array>
+		<key>content</key>
+		<string>car.com</string>
+	</dict>
+	<key>Shop2</key>
+	<dict>
+		<key>name</key>
+		<string>Mustang</string>
+		<key>price</key>
+		<string>75.000USD</string>
+		<key>images</key>
+		<array>
+			<string>honda-cbr-600-rr-1</string>
+			<string>Ghost_Rider</string>
+			<string>girl-car</string>
+			<string>modif trend girl5</string>
+			<string>moto</string>
+			<string>motor.62057</string>
+			<string>motorbike girl</string>
+		</array>
+		<key>content</key>
+		<string>car.com</string>
+	</dict>
+	<key>Shop3</key>
+	<dict>
+		<key>name</key>
+		<string>Mercedes</string>
+		<key>price</key>
+		<string>120.000USD</string>
+		<key>images</key>
+		<array>
+			<string>sexy_girl_and_luxury_car</string>
+			<string>nguoi-dep-va-sieu-xe-12</string>
+			<string>NPADucati1098RSD1</string>
+			<string>pham_tran_kim_chi_giaoduc.net.vn_4</string>
+			<string>Photo-motorcycle</string>
+			<string>pin_up_girl</string>
+			<string>sieu-xe-4</string>
+			<string>Stock-Photo</string>
+		</array>
+		<key>content</key>
+		<string>motor.com</string>
+	</dict>
+</dict>
+</plist>

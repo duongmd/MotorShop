@@ -7,14 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E224C181DB881BE00346837 /* CellItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E224C171DB881BE00346837 /* CellItem.swift */; };
+		1E224C1A1DB8B60800346837 /* ViewScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E224C191DB8B60800346837 /* ViewScroll.swift */; };
 		1E63511A1DB777E40095E8D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6351191DB777E40095E8D2 /* AppDelegate.swift */; };
 		1E63511C1DB777E40095E8D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E63511B1DB777E40095E8D2 /* ViewController.swift */; };
 		1E63511F1DB777E40095E8D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E63511D1DB777E40095E8D2 /* Main.storyboard */; };
 		1E6351211DB777E40095E8D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E6351201DB777E40095E8D2 /* Assets.xcassets */; };
 		1E6351241DB777E40095E8D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6351221DB777E40095E8D2 /* LaunchScreen.storyboard */; };
+		1E63512C1DB77B470095E8D2 /* ViewHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E63512B1DB77B470095E8D2 /* ViewHome.swift */; };
+		1E63512F1DB77C720095E8D2 /* items.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E63512E1DB77C720095E8D2 /* items.plist */; };
+		1E63513A1DB77F010095E8D2 /* 2hqdfsqpdehgl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E6351331DB77F010095E8D2 /* 2hqdfsqpdehgl.jpg */; };
+		1E63513B1DB77F010095E8D2 /* 4dafc9ca-th.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E6351341DB77F010095E8D2 /* 4dafc9ca-th.jpg */; };
+		1E63513D1DB77F010095E8D2 /* 011360-full.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E6351361DB77F010095E8D2 /* 011360-full.jpg */; };
+		1E63513E1DB77F010095E8D2 /* autovina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E6351371DB77F010095E8D2 /* autovina.jpg */; };
+		1E63513F1DB77F010095E8D2 /* cars-girl-and-car-jpg-88223.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E6351381DB77F010095E8D2 /* cars-girl-and-car-jpg-88223.jpg */; };
+		1E6351401DB77F010095E8D2 /* cars-nissan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E6351391DB77F010095E8D2 /* cars-nissan.jpg */; };
+		1E6351481DB77F1E0095E8D2 /* Ghost_Rider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E6351411DB77F1E0095E8D2 /* Ghost_Rider.jpg */; };
+		1E6351491DB77F1E0095E8D2 /* girl-car.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E6351421DB77F1E0095E8D2 /* girl-car.jpg */; };
+		1E63514A1DB77F1E0095E8D2 /* honda-cbr-600-rr-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E6351431DB77F1E0095E8D2 /* honda-cbr-600-rr-1.jpg */; };
+		1E63514B1DB77F1E0095E8D2 /* modif trend girl5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E6351441DB77F1E0095E8D2 /* modif trend girl5.jpg */; };
+		1E63514C1DB77F1E0095E8D2 /* moto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E6351451DB77F1E0095E8D2 /* moto.jpg */; };
+		1E63514D1DB77F1E0095E8D2 /* motor.62057.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E6351461DB77F1E0095E8D2 /* motor.62057.jpg */; };
+		1E63514E1DB77F1E0095E8D2 /* motorbike girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E6351471DB77F1E0095E8D2 /* motorbike girl.jpg */; };
+		1E6351581DB77F320095E8D2 /* nguoi-dep-va-sieu-xe-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E63514F1DB77F320095E8D2 /* nguoi-dep-va-sieu-xe-1.jpg */; };
+		1E6351591DB77F320095E8D2 /* nguoi-dep-va-sieu-xe-12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E6351501DB77F320095E8D2 /* nguoi-dep-va-sieu-xe-12.jpg */; };
+		1E63515A1DB77F320095E8D2 /* NPADucati1098RSD1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E6351511DB77F320095E8D2 /* NPADucati1098RSD1.jpg */; };
+		1E63515B1DB77F320095E8D2 /* pham_tran_kim_chi_giaoduc.net.vn_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E6351521DB77F320095E8D2 /* pham_tran_kim_chi_giaoduc.net.vn_4.jpg */; };
+		1E63515C1DB77F320095E8D2 /* Photo-motorcycle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E6351531DB77F320095E8D2 /* Photo-motorcycle.jpg */; };
+		1E63515D1DB77F320095E8D2 /* pin_up_girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E6351541DB77F320095E8D2 /* pin_up_girl.jpg */; };
+		1E63515E1DB77F320095E8D2 /* sexy_girl_and_luxury_car.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E6351551DB77F320095E8D2 /* sexy_girl_and_luxury_car.jpg */; };
+		1E63515F1DB77F320095E8D2 /* sieu-xe-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E6351561DB77F320095E8D2 /* sieu-xe-4.jpg */; };
+		1E6351601DB77F320095E8D2 /* Stock-Photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E6351571DB77F320095E8D2 /* Stock-Photo.jpg */; };
+		1E6351631DB782370095E8D2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6351621DB782370095E8D2 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E224C171DB881BE00346837 /* CellItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellItem.swift; sourceTree = "<group>"; };
+		1E224C191DB8B60800346837 /* ViewScroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewScroll.swift; sourceTree = "<group>"; };
 		1E6351161DB777E40095E8D2 /* MotorShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotorShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E6351191DB777E40095E8D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E63511B1DB777E40095E8D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +51,31 @@
 		1E6351201DB777E40095E8D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E6351231DB777E40095E8D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E6351251DB777E40095E8D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E63512B1DB77B470095E8D2 /* ViewHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewHome.swift; sourceTree = "<group>"; };
+		1E63512E1DB77C720095E8D2 /* items.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = items.plist; sourceTree = "<group>"; };
+		1E6351331DB77F010095E8D2 /* 2hqdfsqpdehgl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2hqdfsqpdehgl.jpg; sourceTree = "<group>"; };
+		1E6351341DB77F010095E8D2 /* 4dafc9ca-th.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4dafc9ca-th.jpg"; sourceTree = "<group>"; };
+		1E6351361DB77F010095E8D2 /* 011360-full.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "011360-full.jpg"; sourceTree = "<group>"; };
+		1E6351371DB77F010095E8D2 /* autovina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = autovina.jpg; sourceTree = "<group>"; };
+		1E6351381DB77F010095E8D2 /* cars-girl-and-car-jpg-88223.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cars-girl-and-car-jpg-88223.jpg"; sourceTree = "<group>"; };
+		1E6351391DB77F010095E8D2 /* cars-nissan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cars-nissan.jpg"; sourceTree = "<group>"; };
+		1E6351411DB77F1E0095E8D2 /* Ghost_Rider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ghost_Rider.jpg; sourceTree = "<group>"; };
+		1E6351421DB77F1E0095E8D2 /* girl-car.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "girl-car.jpg"; sourceTree = "<group>"; };
+		1E6351431DB77F1E0095E8D2 /* honda-cbr-600-rr-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "honda-cbr-600-rr-1.jpg"; sourceTree = "<group>"; };
+		1E6351441DB77F1E0095E8D2 /* modif trend girl5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "modif trend girl5.jpg"; sourceTree = "<group>"; };
+		1E6351451DB77F1E0095E8D2 /* moto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moto.jpg; sourceTree = "<group>"; };
+		1E6351461DB77F1E0095E8D2 /* motor.62057.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = motor.62057.jpg; sourceTree = "<group>"; };
+		1E6351471DB77F1E0095E8D2 /* motorbike girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "motorbike girl.jpg"; sourceTree = "<group>"; };
+		1E63514F1DB77F320095E8D2 /* nguoi-dep-va-sieu-xe-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nguoi-dep-va-sieu-xe-1.jpg"; sourceTree = "<group>"; };
+		1E6351501DB77F320095E8D2 /* nguoi-dep-va-sieu-xe-12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nguoi-dep-va-sieu-xe-12.jpg"; sourceTree = "<group>"; };
+		1E6351511DB77F320095E8D2 /* NPADucati1098RSD1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NPADucati1098RSD1.jpg; sourceTree = "<group>"; };
+		1E6351521DB77F320095E8D2 /* pham_tran_kim_chi_giaoduc.net.vn_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pham_tran_kim_chi_giaoduc.net.vn_4.jpg; sourceTree = "<group>"; };
+		1E6351531DB77F320095E8D2 /* Photo-motorcycle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Photo-motorcycle.jpg"; sourceTree = "<group>"; };
+		1E6351541DB77F320095E8D2 /* pin_up_girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pin_up_girl.jpg; sourceTree = "<group>"; };
+		1E6351551DB77F320095E8D2 /* sexy_girl_and_luxury_car.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sexy_girl_and_luxury_car.jpg; sourceTree = "<group>"; };
+		1E6351561DB77F320095E8D2 /* sieu-xe-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sieu-xe-4.jpg"; sourceTree = "<group>"; };
+		1E6351571DB77F320095E8D2 /* Stock-Photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Stock-Photo.jpg"; sourceTree = "<group>"; };
+		1E6351621DB782370095E8D2 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +108,81 @@
 		1E6351181DB777E40095E8D2 /* MotorShop */ = {
 			isa = PBXGroup;
 			children = (
+				1E6351611DB782200095E8D2 /* Object */,
+				1E63512D1DB77C2F0095E8D2 /* Source */,
 				1E6351191DB777E40095E8D2 /* AppDelegate.swift */,
 				1E63511B1DB777E40095E8D2 /* ViewController.swift */,
+				1E63512B1DB77B470095E8D2 /* ViewHome.swift */,
+				1E224C191DB8B60800346837 /* ViewScroll.swift */,
 				1E63511D1DB777E40095E8D2 /* Main.storyboard */,
 				1E6351201DB777E40095E8D2 /* Assets.xcassets */,
 				1E6351221DB777E40095E8D2 /* LaunchScreen.storyboard */,
 				1E6351251DB777E40095E8D2 /* Info.plist */,
 			);
 			path = MotorShop;
+			sourceTree = "<group>";
+		};
+		1E63512D1DB77C2F0095E8D2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1E63512E1DB77C720095E8D2 /* items.plist */,
+				1E6351301DB77E170095E8D2 /* Shop1 */,
+				1E6351311DB77E200095E8D2 /* Shop2 */,
+				1E6351321DB77E260095E8D2 /* Shop3 */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1E6351301DB77E170095E8D2 /* Shop1 */ = {
+			isa = PBXGroup;
+			children = (
+				1E6351331DB77F010095E8D2 /* 2hqdfsqpdehgl.jpg */,
+				1E6351341DB77F010095E8D2 /* 4dafc9ca-th.jpg */,
+				1E6351361DB77F010095E8D2 /* 011360-full.jpg */,
+				1E63514F1DB77F320095E8D2 /* nguoi-dep-va-sieu-xe-1.jpg */,
+				1E6351371DB77F010095E8D2 /* autovina.jpg */,
+				1E6351381DB77F010095E8D2 /* cars-girl-and-car-jpg-88223.jpg */,
+				1E6351391DB77F010095E8D2 /* cars-nissan.jpg */,
+			);
+			name = Shop1;
+			sourceTree = "<group>";
+		};
+		1E6351311DB77E200095E8D2 /* Shop2 */ = {
+			isa = PBXGroup;
+			children = (
+				1E6351431DB77F1E0095E8D2 /* honda-cbr-600-rr-1.jpg */,
+				1E6351411DB77F1E0095E8D2 /* Ghost_Rider.jpg */,
+				1E6351421DB77F1E0095E8D2 /* girl-car.jpg */,
+				1E6351441DB77F1E0095E8D2 /* modif trend girl5.jpg */,
+				1E6351451DB77F1E0095E8D2 /* moto.jpg */,
+				1E6351461DB77F1E0095E8D2 /* motor.62057.jpg */,
+				1E6351471DB77F1E0095E8D2 /* motorbike girl.jpg */,
+			);
+			name = Shop2;
+			sourceTree = "<group>";
+		};
+		1E6351321DB77E260095E8D2 /* Shop3 */ = {
+			isa = PBXGroup;
+			children = (
+				1E6351551DB77F320095E8D2 /* sexy_girl_and_luxury_car.jpg */,
+				1E6351501DB77F320095E8D2 /* nguoi-dep-va-sieu-xe-12.jpg */,
+				1E6351511DB77F320095E8D2 /* NPADucati1098RSD1.jpg */,
+				1E6351521DB77F320095E8D2 /* pham_tran_kim_chi_giaoduc.net.vn_4.jpg */,
+				1E6351531DB77F320095E8D2 /* Photo-motorcycle.jpg */,
+				1E6351541DB77F320095E8D2 /* pin_up_girl.jpg */,
+				1E6351561DB77F320095E8D2 /* sieu-xe-4.jpg */,
+				1E6351571DB77F320095E8D2 /* Stock-Photo.jpg */,
+			);
+			name = Shop3;
+			sourceTree = "<group>";
+		};
+		1E6351611DB782200095E8D2 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				1E6351621DB782370095E8D2 /* Item.swift */,
+				1E224C171DB881BE00346837 /* CellItem.swift */,
+			);
+			name = Object;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +244,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E63514B1DB77F1E0095E8D2 /* modif trend girl5.jpg in Resources */,
+				1E63515B1DB77F320095E8D2 /* pham_tran_kim_chi_giaoduc.net.vn_4.jpg in Resources */,
+				1E63513B1DB77F010095E8D2 /* 4dafc9ca-th.jpg in Resources */,
+				1E63513D1DB77F010095E8D2 /* 011360-full.jpg in Resources */,
+				1E63515A1DB77F320095E8D2 /* NPADucati1098RSD1.jpg in Resources */,
+				1E63513A1DB77F010095E8D2 /* 2hqdfsqpdehgl.jpg in Resources */,
+				1E63514A1DB77F1E0095E8D2 /* honda-cbr-600-rr-1.jpg in Resources */,
+				1E63514D1DB77F1E0095E8D2 /* motor.62057.jpg in Resources */,
 				1E6351241DB777E40095E8D2 /* LaunchScreen.storyboard in Resources */,
+				1E63514C1DB77F1E0095E8D2 /* moto.jpg in Resources */,
+				1E63515C1DB77F320095E8D2 /* Photo-motorcycle.jpg in Resources */,
+				1E63515F1DB77F320095E8D2 /* sieu-xe-4.jpg in Resources */,
+				1E6351481DB77F1E0095E8D2 /* Ghost_Rider.jpg in Resources */,
+				1E6351581DB77F320095E8D2 /* nguoi-dep-va-sieu-xe-1.jpg in Resources */,
+				1E63515E1DB77F320095E8D2 /* sexy_girl_and_luxury_car.jpg in Resources */,
+				1E63514E1DB77F1E0095E8D2 /* motorbike girl.jpg in Resources */,
+				1E63515D1DB77F320095E8D2 /* pin_up_girl.jpg in Resources */,
+				1E6351591DB77F320095E8D2 /* nguoi-dep-va-sieu-xe-12.jpg in Resources */,
+				1E6351491DB77F1E0095E8D2 /* girl-car.jpg in Resources */,
+				1E6351401DB77F010095E8D2 /* cars-nissan.jpg in Resources */,
+				1E6351601DB77F320095E8D2 /* Stock-Photo.jpg in Resources */,
 				1E6351211DB777E40095E8D2 /* Assets.xcassets in Resources */,
+				1E63513F1DB77F010095E8D2 /* cars-girl-and-car-jpg-88223.jpg in Resources */,
 				1E63511F1DB777E40095E8D2 /* Main.storyboard in Resources */,
+				1E63513E1DB77F010095E8D2 /* autovina.jpg in Resources */,
+				1E63512F1DB77C720095E8D2 /* items.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E224C181DB881BE00346837 /* CellItem.swift in Sources */,
+				1E6351631DB782370095E8D2 /* Item.swift in Sources */,
 				1E63511C1DB777E40095E8D2 /* ViewController.swift in Sources */,
+				1E224C1A1DB8B60800346837 /* ViewScroll.swift in Sources */,
 				1E63511A1DB777E40095E8D2 /* AppDelegate.swift in Sources */,
+				1E63512C1DB77B470095E8D2 /* ViewHome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +447,7 @@
 				1E63512A1DB777E40095E8D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

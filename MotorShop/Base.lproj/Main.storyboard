@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="uI1-GO-OPC">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--View Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewHome" customModule="MotorShop" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +18,120 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Motor &amp; Car" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTw-4G-CbI">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="AfP-IK-zka"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="1" green="0.1545286806" blue="0.088526494289999993" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="sd1-zL-OkE">
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="20" minimumInteritemSpacing="10" id="gCB-cN-zkx">
+                                    <size key="itemSize" width="250" height="370"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="jEO-RJ-MVH" customClass="CellItem" customModule="MotorShop" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="20.5" width="250" height="370"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="250" height="370"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="xVd-DK-yb4"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="9Bz-ly-8ik"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sd1-zL-OkE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="J4w-nW-6Ht"/>
+                            <constraint firstItem="NTw-4G-CbI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="ZFQ-zr-4gb"/>
+                            <constraint firstItem="NTw-4G-CbI" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="bRL-is-8Yz"/>
+                            <constraint firstItem="NTw-4G-CbI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="iFk-Ab-toE"/>
+                            <constraint firstAttribute="trailing" secondItem="sd1-zL-OkE" secondAttribute="trailing" constant="16" id="myG-jk-LZY"/>
+                            <constraint firstItem="sd1-zL-OkE" firstAttribute="top" secondItem="NTw-4G-CbI" secondAttribute="bottom" constant="8" id="tIv-HT-Pba"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sd1-zL-OkE" secondAttribute="bottom" constant="132" id="wBT-AD-Lgs"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Gta-w5-HQ8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="911.20000000000005" y="48.125937031484263"/>
+        </scene>
+        <!--View Scroll-->
+        <scene sceneID="Azz-m4-dI9">
+            <objects>
+                <viewController storyboardIdentifier="ViewScroll" automaticallyAdjustsScrollViewInsets="NO" id="00y-io-21f" customClass="ViewScroll" customModule="MotorShop" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pat-bi-mUx"/>
+                        <viewControllerLayoutGuide type="bottom" id="c6B-5x-rKH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Rrz-TQ-bmI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rai-h7-Zk0">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="601" id="Dhc-VK-Ntw"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="00y-io-21f" id="hch-N5-w1h"/>
+                                </connections>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="yRh-6r-Iwc">
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="onChange:" destination="00y-io-21f" eventType="valueChanged" id="g6m-tn-bDF"/>
+                                </connections>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yRh-6r-Iwc" firstAttribute="top" secondItem="rai-h7-Zk0" secondAttribute="bottom" constant="8" id="7bJ-dM-6LR"/>
+                            <constraint firstItem="rai-h7-Zk0" firstAttribute="leading" secondItem="Rrz-TQ-bmI" secondAttribute="leadingMargin" id="H6l-ox-Yae"/>
+                            <constraint firstItem="rai-h7-Zk0" firstAttribute="trailing" secondItem="Rrz-TQ-bmI" secondAttribute="trailingMargin" id="Lfb-aP-bNn"/>
+                            <constraint firstItem="yRh-6r-Iwc" firstAttribute="trailing" secondItem="Rrz-TQ-bmI" secondAttribute="trailingMargin" id="RPR-eC-HVb"/>
+                            <constraint firstItem="yRh-6r-Iwc" firstAttribute="leading" secondItem="Rrz-TQ-bmI" secondAttribute="leadingMargin" id="dt5-Se-yUP"/>
+                            <constraint firstItem="c6B-5x-rKH" firstAttribute="top" secondItem="yRh-6r-Iwc" secondAttribute="bottom" constant="8" id="g44-Ue-kGg"/>
+                            <constraint firstItem="rai-h7-Zk0" firstAttribute="top" secondItem="pat-bi-mUx" secondAttribute="bottom" id="vrK-QD-NO4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pageController" destination="yRh-6r-Iwc" id="i2a-Bu-TLf"/>
+                        <outlet property="scrollView" destination="rai-h7-Zk0" id="oez-67-OYA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uqf-be-FnF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1792.8" y="47.226386806596707"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="267-gm-wsu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uI1-GO-OPC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="H9t-bU-Tbb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Cea-c1-nDP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="No4-ji-pcg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="142" y="67"/>
         </scene>
     </scenes>
 </document>
